@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*........................ start
+..........................
+*/
+h1{
+    font-size: 40px;
+    line-height: 44px;
+}
+h2{
+    font-size: 30px;
+    line-height: 44px
+}
+h3 {
+    font-size: 24;
+    
+}
+h4{
+    font-size: 20;
+}
+h5{
+    font-size: 16;
+}
+header {
+    display: block;
+    padding-bottom: 50;
+    width:auto;
+    text-align: center;
+}
+.logo{
+    float: left;
+    padding: 6px 40 4px
+}
+
+section {
+    text-align: center
+}
+#home{
+    background-image: url(/assets/bgimages/hero_img.jpg);
+    min-height:100%;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px
+}
+#about{
+    min-height: 70%;
+    background-color: #fff;
+    color: darkgray
+    
+    
+}
+#services {
+    background-image: url(/assets/bgimages/what_we_do_bg.jpg);
+    min-height:100%;
+    min-width: 100%
+}
+
+#future{
+    background-image: url(/assets/bgimages/we_are_making_products.jpg);
+    min-height:100%;
+}
+#contact {
+    background-image: url(/assets/bgimages/contactUs.jpg);
+    min-height: 20%;
+    color: white;
+    padding-left: 10;
+    padding-right: 10;
+        
+}
+#quote {
+    background-image: url(/assets/bgimages/bg_quote.jpg);
+    min-height: 50%;
+    color: wheat;
+    line-height: 4;
+        
+}
+
+#products{
+    background-image: url(/assets/bgimages/we_are_making_products.jpg);
+    min-height: 70%;
+    color: darkgrey;
+    line-height: 80px
+        
+}
+#portofolio{
+    color: darkgray;
+    text-align: center;
+}
+#pricing {
+    color: darkgray;
+    line-height: 3;
+    min-height: 40%;
+}
+.btn {
+    border: 1em solid
+    box-sizing: border-box;
+    padding-left: 20;
+    padding-right: 21;
+    padding-bottom: 10;
+    width: 100px;
+    height: 50px
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+div {
+    display: inline-block;
+    width: auto;
+    
+}
+.col-1{
+    float: 25;
+    width: 200px;
+}
+.col-2{
+    width: 200px
+    
+}
+.col-3{
+    float: 70;
+    width: 200px;
+    
+}
+.col-4{
+    float: right;
+    width: 200px
+}
+h4,h5{
+    text-align
+}
+
+.img{
+    height: 400px;
+    width: 200px
+}
+.grid{
+    width: 50px;
+    height: 50px;
+}
+.grid-2 {
+    height: 200px;
+    width: 300px;
+    display: inline
+}
+footer{
+    display: block;
+    text-align: right
+}
